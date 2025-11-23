@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria - Gallery</title>
+        <!-- Fuentes- Font-Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- Estilos - Styles -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <!-- Naturaleza - Nature -->
+        <section class="seccion naturaleza">
+            <img src="assets/images/nature-1.jpeg" alt="Nature-1" title="Nature-1" class="img" data-id="1">
+            <img src="assets/images/nature-2.jpeg" alt="Nature-2" title="Nature-2" class="img" data-id="2">
+            <img src="assets/images/nature-3.jpeg" alt="Nature-3" title="Nature-3" class="img" data-id="3">
+        </section>
+
+        <!-- Ciudad - City -->
+        <section class="seccion ciudad">
+            <img src="assets/images/city-1.jpeg" alt="City-1" title="City-1" class="img" data-id="1">
+            <img src="assets/images/city-2.jpeg" alt="City-2" title="City-2" class="img" data-id="2">
+            <img src="assets/images/city-3.jpeg" alt="City-3" title="City-3" class="img" data-id="3">
+            <img src="assets/images/city-4.jpeg" alt="City-4" title="City-4" class="img" data-id="4">
+            <img src="assets/images/city-5.jpeg" alt="City-5" title="City-5" class="img" data-id="5">
+        </section>
+
+        <!-- Modal -->
+        <div class="modal">
+            <button class="boton-cerrar">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-contenido">
+                <!-- Botones de Anterior y Seguiente - prev next buttons -->
+                <button class="boton-anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="boton-siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <!-- Contenido - Content -->
+                <img src="assets/images/city-1.jpeg" alt="City-1" class="imagen-principal">
+                <h3 class="imagen-nombre">Imagen Nombre</h3>
+                <div class="modal-imagenes">
+                    <img src="assets/images/city-1.jpeg" alt="City-1" title="City-1" id="1" class="modal-img">
+                    <img src="assets/images/city-2.jpeg" alt="City-2" title="City-2" id="2" class="modal-img seleccionado">
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
