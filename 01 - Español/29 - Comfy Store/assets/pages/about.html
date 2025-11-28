@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acerca De | Comfy</title>
+        <!-- Fuentes - Font-Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- Estilos - Styles -->
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+
+        <!-- Barra de Navegación - Navbar -->
+        <nav class="barra-de-navegacion pagina">
+            <div class="navegacion-central">
+                <!-- Enlaces - Links -->
+                <div>
+                    <button class="navegacion-interruptor"><i class="fas fa-bars"></i></button>
+                    <ul class="navegacion-enlaces">
+                        <li><a href="../../index.html" class="navegacion-enlace">Inicio</a></li>
+                        <li><a href="./products.html" class="navegacion-enlace">Productos</a></li>
+                        <li><a href="./about.html" class="navegacion-enlace">Acerca De</a></li>
+                    </ul>
+                </div>
+                <!-- Logo -->
+                <img src="../images/logo-black.svg" alt="logo" class="navegacion-logo">
+                <!-- Icono del Carrito - Cart Icon -->
+                <div class="interruptor-contenedor">
+                    <button class="carrito-interruptor"><i class="fas fa-shopping-cart"></i></button>
+                    <span class="carrito-elemento-contador">1</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="pagina-hero">
+            <div class="seccion-central">
+                <h3 class="pagina-hero-titulo">Inicio / Acerca De</h3>
+            </div>
+        </section>
+
+        <!-- Barra Lateral - Sidebar -->
+        <div class="barra-lateral-superposicion">
+            <aside class="barra-lateral">
+                <!-- Cerrar - Close -->
+                <button class="barra-lateral-cerrar"><i class="fas fa-times"></i></button>
+                <!-- Enlaces - Links -->
+                <ul class="barra-lateral-enlaces">
+                    <li><a href="../../index.html" class="barra-lateral-enlace"><i class="fas fa-home fa-fw"></i>Inicio</a></li>
+                    <li><a href="./products.html" class="barra-lateral-enlace"><i class="fas fa-couch fa-fw"></i>Productos</a></li>
+                    <li><a href="./about.html" class="barra-lateral-enlace"><i class="fas fa-book fa-fw"></i>Acerca De</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <!-- Carrito - Cart -->
+        <div class="carrito-superposicion">
+            <aside class="carrito">
+                <button class="carrito-cerrar"><i class="fas fa-times"></i></button>
+                <header class="texto-inclinado">
+                    <h3>Tu Bolsa</h3>
+                </header>
+                <!-- Articulos del Carrito - Cart Items -->
+                <div class="carrito-articulos"></div>
+                <!-- Pie de Página - Footer -->
+                <footer>
+                    <h3 class="carrito-total texto-inclinado">
+                        Total : $12.99
+                    </h3>
+                    <button class="carrito-verificar boton">Checkout</button>
+                </footer>
+            </aside>
+        </div>
+
+        <!-- Acerca de - About -->
+        <section class="seccion seccion-central acerca-de-pagina">
+            <div class="titulo">
+                <h2><span>/</span> Nuestra Historia</h2>
+            </div>
+            <p class="acerca-de-texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, explicabo sapiente vero neque ratione ad provident, consequuntur excepturi culpa aliquam earum nobis accusantium natus laborum debitis quia aperiam porro? Iure?
+            </p>
+        </section>
+
+        <!-- JavaScript -->
+        <script type="module" src="../js/src/pages/about.js"></script>
+    </body>
+</html>
